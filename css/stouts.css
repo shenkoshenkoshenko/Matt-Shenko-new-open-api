@@ -2,6 +2,7 @@ body {
     background-color: black;
     color: antiquewhite;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
     font-size: .75rem;
     margin: 0;
 }
@@ -20,6 +21,40 @@ body {
 
 .heading {
     font-size: 1rem;
+    text-align: center;
+}
+
+
+/* .beer-box {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+.beer-item {
+display: flex;
+flex-wrap: wrap;
+justify-content:center;
+}
+
+
+.bullets {
+    text-align: center;
+    list-style-type: none;
+    padding: 1rem;
+    margin: 3%;
+    background-color: chocolate;
+    border-radius: 15%;
+    text-align: center;
+}
+
+
+.bullets-item {
+    list-style-type: none;
 }
 
 
