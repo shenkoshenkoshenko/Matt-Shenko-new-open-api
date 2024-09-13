@@ -22,6 +22,7 @@ body {
 .heading {
     font-size: 1rem;
     text-align: center;
+    margin-top: 0;
 }
 
 
@@ -55,6 +56,24 @@ justify-content:center;
 
 .bullets-item {
     list-style-type: none;
+}
+
+
+.outside-link {
+    color: goldenrod;
+}
+.outside-link:hover {color: whitesmoke;}
+
+
+.beerSearch {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1%;
+    margin-bottom: 3%;
 }
 
 

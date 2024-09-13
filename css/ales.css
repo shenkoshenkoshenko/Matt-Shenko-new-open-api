@@ -23,6 +23,18 @@ body {
 }
 
 
+.beerSearch {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1%;
+    margin-bottom: 3%;
+}
+
+
 /* **************************************media section */
 
 
