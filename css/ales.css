@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .75rem;
+    margin: 0;
+}
+
+
+.title {
+    background-color: black;
+    font-size: 2rem;
+    text-shadow: #FC0 .5rem 0 .5rem;
+    font-weight: 700;
+    font-family: "Fascinate Inline", system-ui;;
+    text-align: center;
+    margin: 0;
+}
+
+
+.heading {
+    font-size: 1rem;
+}
+
+
+.beerSearch {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1%;
+    margin-bottom: 3%;
+}
+
+
+/* **************************************media section */
+
+
+@media (min-width: 726px) {
+    body {
+        font-size: 1rem;
+    }
+
+    .title {
+        font-size: 4rem;
+        text-shadow: #FC0 1rem 0 1rem;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+}
